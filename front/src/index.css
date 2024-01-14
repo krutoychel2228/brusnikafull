@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Inder&family=Inter:wght@200;300;400;500;700;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'GrtskMegaBold';
+    src: url("./fonts/GrtskMegaBold.ttf");
+}
+
+@layer base {
+    body {
+        background-color: #F7F6F4
+    }
+
+    .formulaScrollbar {
+    }
+    .formulaScrollbar::-webkit-scrollbar {
+      width: 6px;
+    }
+    .formulaScrollbar::-webkit-scrollbar-track {
+      border-radius: 6px;
+      background: #fff;
+    }
+    .formulaScrollbar::-webkit-scrollbar-thumb {
+      background: #aaa;
+      border-radius: 6px;
+    }
+}
