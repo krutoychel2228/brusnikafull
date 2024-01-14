@@ -1,7 +1,7 @@
 import MailIcon from '../assets/mail.svg'
 import KeyIcon from '../assets/key.svg'
 import { FormEvent, useEffect, useState } from 'react'
-import { useSignup } from '../hooks/UseSignup'
+import { useSignup } from '../hooks/useSignup'
 import { useNavigate } from 'react-router-dom'
 import { useAuthContext } from '../hooks/useAuthContext'
 
