@@ -73,7 +73,7 @@ export default function Signup() {
     useEffect(() => {if (state.user) navigate('/')}, [state.user, navigate])
 
     return (
-        <article className="bg-cgrey h-[100vh]">
+        <article className="bg-cgrey min-h-[100vh]">
             <hr className="border-0" />
             <section className="bg-white w-[500px] h-[1050px] mx-auto mt-24 rounded-[36px] border-black border-2">
                 <div className="flex place-content-between py-5 pl-6 pr-4 select-none">
